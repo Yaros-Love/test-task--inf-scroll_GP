@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(100, 100, 100);
+}
+
+body {
+  background: rgb(8,167,117);
+  background: linear-gradient(90deg, rgba(8,167,117,0.4962359943977591) 0%, rgba(70,215,16,0.4374124649859944) 47%, rgba(239,251,35,0.40940126050420167) 92%);
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post {
+  text-align: center; 
+}
+
+.post img {
+  max-width: 100%;
+}
